@@ -1,0 +1,494 @@
+/*CSS*/
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../imagem/granito-marrom-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: tan;
+    border: 1px solid;
+}
+#logo{
+    width: 180px;
+    height: 200px;
+    float: left;
+}
+.caixa_menu{
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: firebrick;
+}
+#conteudo{
+    width: 1500px;
+    height: 1500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-color:tan;
+    margin-top: 100px;
+    
+}
+form{
+    height: 1410px;
+}
+
+#login{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#principal{
+    width: 1600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    width: 990px;
+    height: 40px;
+    padding-top: 140px;
+    padding-left: 30px;
+    float: left; 
+    
+}
+/***Slide**/
+#slide{
+    width: 1500px;
+    height: 480px;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.setas{
+    width: 100px;
+    height: 500px;
+    background-color: mediumaquamarine;
+    float: left;
+}
+#imagem_slide{
+    width: 1300px;
+    height: 500px;
+    background-color: chartreuse;
+    float: left;
+}
+
+/***redes***/
+#part_rede{
+    width: 55px;
+    height: 160px;
+    position: fixed;
+    margin-left: 1510px;
+    border: top;
+}
+/***menu lateral***/
+#lateral{
+    width: 300px;
+    height: 720px;
+    background-color: thistle;
+    float: left;
+}
+/**imagens pizzas***/
+#produtos{
+    width: 1200px;
+    height: 700px;
+    background-color: oldlace;
+    float: left;
+}
+.img{
+    width: 1155px;
+    height: 325px;
+    padding-left: 45px;
+    margin-bottom: 50px;
+}
+.caixa{
+    width: 340px;
+    height: 325px;
+    margin-right: 45px;
+    background-color: tan;
+    float: left;
+}
+.imagens_pizza{
+    width: 340px;
+    height: 253px;
+}
+.imagens_pizza img{
+    width: 340px;
+    height: 253px;
+}
+.detalhes_prod_caixa{
+    width: 340px;
+    height: 72px;
+    background-color: darkturquoise;
+}
+.detalhes_detalhes_prod_caixa{
+    width: 340px;
+    height: auto;
+    background-color: dimgray;
+    text-align: right;
+}
+
+/****cadastro**/
+#cad{
+    width:300px;
+    height:50px;
+    border:0px;
+}
+
+/***menu lateral opçoes****/
+.opc{
+  margin-top: 10px;
+    width: 290px;
+    height: 40px;
+    background-color: brown;
+    border: solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***curiosidades***/
+#acont{
+    width: 1500px;
+    height: 400px;
+}
+
+#arte_cultura{
+    width: 1500px;
+    height: 400px;
+}
+
+#musica{
+    width: 1500px;
+    height: 400px;
+}
+
+.desc{
+    width: 200px;
+    height: 90px;
+    background-color: cadetblue;
+ 
+}
+
+.desc_acont{
+    width: 200px;
+    height: auto;
+    text-align: justify;
+    font-family: serif;
+    font-size: 18px;
+}
+
+#suporte1{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+#suporte2{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+
+    
+}
+#suporte3{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+
+}
+
+#suporte4{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+#suporte5{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+}
+#suporte6{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.fatos{
+    text-align: justify;
+    font-family: serif;
+    font-size: 16px;
+}
+
+#sup_music{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+
+}
+
+#sup_music_70{
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 100px;
+}
+
+#sup_music_80{
+    width: 330px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+/****nosso ambiente***/
+#ambiente{
+    width: 1500px;
+    height: 1000px;
+}
+
+#caixa_ambiente{
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+    overflow: hidden;
+    float: left;
+}
+#caixa_ambientes{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+#caixa_ambiente1{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+
+#caixa_ambiente2{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+
+#caixa_ambiente3{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+
+#caixa_ambiente4{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.desc_ambiente{
+    width: 200px;
+    height: auto;
+    text-align: justify;
+    font-family: serif;
+    font-size: 16px;
+}
+
+#ambiente_norte{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+}
+
+#ambiente_norte1{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#ambiente_norte2{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+
+#ambiente_centro{
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+#centro{
+    width: 200px;
+    height: auto;
+    margin-right: 50px;
+    overflow: hidden;
+    float: left;
+    margin-top: 50px;
+}
+#sobrenos{
+    width: 1500px;
+    height:1200px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 30px;
+    
+}
+
+.destaques{
+    font-family: serif;
+    font-size: 34px;
+    color: red;
+    text-align: left;
+}
+.destaque{
+    font-family: serif;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+}
+/***pizza do mes***/
+#pizzames{
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+.texto{
+    font-family: serif;
+    font-size: 16px;
+    text-align: left;
+    color: darkslateblue;
+}
+
+#promo{
+    font-family: serif;
+    font-size: 50px;
+    text-align: left;
+    color: red;
+}
+
+.desc_promo{
+    font-family: serif;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    margin-top: 10px;
+}
+#img_promo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#titulo{
+   font-family: serif;
+    font-size: 18px;
+    color: black;
+    background-color: aquamarine;
+}
+
+.preencher{
+    background-color: azure;
+    font-size: 18px;
+    color: black;
+}
+
+#botao{
+    background-color: aqua;
+    
+    
+}
+
+form{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***#cont{
+    width: 2000px;
+    height: 800px;
+    background-color: white;
+}*/
+/***slide**/
+/* jssor slider loading skin spin css */
+    .jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+    from {
+    transform: rotate(0deg);
+    }
+
+    to {
+    transform: rotate(360deg);
+     }
+}
+
+
+.jssora093 {display:block;position:absolute;cursor:pointer;}
+.jssora093 .c {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093:hover {opacity:.8;}
+.jssora093.jssora093dn {opacity:.6;}
+.jssora093.jssora093ds {opacity:.3;pointer-events:none;}
+
+.jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
+.jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
+.jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
+                            .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
+                            .jssort101 .p:hover{padding:2px;}
+                            .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
+                            .jssort101 .p:hover.pdn{padding:0;}
+                            .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
+                            .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
+                            .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
+                            .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
+                            .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
+                        </style>

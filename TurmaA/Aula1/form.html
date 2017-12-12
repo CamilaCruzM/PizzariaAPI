@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8">
+    <style>
+        textarea{
+            resize: none; /*PARA QUE O USUÁRIO NAO REDIMISIONE A CAIXA*/
+        }
+    </style>
+    </head>
+    <body>
+        <form name="frmcadastro" method="get" action="form.html">
+            <table  border="2" width="800" height="800" align="center">
+                <tr>
+                    <td colspan="2" align="center">Cadastros de Clientes</td>
+                    
+                </tr>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="txtnome" value="" maxlength="30" size="30px"> </td>
+                </tr>
+                <tr>
+                    <td>Estado:</td>
+                    <td>
+                        <select name="sltestados">
+                            <option value="" selected>Escolha um Estado</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="BA">Bahia</option>     
+                        </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td><input type="radio" name="rdosexo" value="F" checked>Feminino
+                        <input type="radio" name="rdosexo" value="M">Masculino
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cursos:</td>
+                    <td>
+                        <input type="checkbox" name="chkinformatica" value="INF">Curso de Informática.<br>
+                        <input type="checkbox" name="chkingles" value="ING">Curso de Inglês.<br>
+                        <input type="checkbox" name="chktecnico" value="TEC">Curso de Técnico.<br>
+                        <input type="checkbox" name="chkfaculdade" value="FAC">Faculdade.<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Observação:</td>
+                    <td>
+                        <textarea name="txtobs" cols="50" rows="4"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="btnsalvar" value="Salvar Registro">
+                        <input type="reset" name="btnlimpar" value="Limpar">
+                        <input type="button" name="btnteste" value="Teste">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            
+        </form>
+    </body> 
+</html>

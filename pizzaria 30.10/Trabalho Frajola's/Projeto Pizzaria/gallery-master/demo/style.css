@@ -1,0 +1,25 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  color: #242424;
+  background-color: #EAE8EC;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media screen and (max-width: 640px) {
+    html,
+    body {
+      font-size: 13px; } }
+
+
+
+#attach {
+  height: 600px;
+  width: 50%;
+  border-top: 2px solid #654979;
+  border-bottom: 2px solid #654979; }
+  @media screen and (max-width: 640px) {
+    #attach {
+      height: 350px; } }
+
+/*# sourceMappingURL=style.css.map */
